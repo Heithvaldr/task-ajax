@@ -1,0 +1,52 @@
+{
+    "apartments": [
+        {
+            "apartmentId": 1,
+            "address": "Musterstrasse 15, 8000 Zürich, 3.0-Zi-Wohnung rechts 1. Stock;",
+            "currentCustomer": {
+                "name": " Muster Mario",
+                "address": "customer street",
+                "phone": "0412",
+                "email": "ros@kiev.ru"
+            },
+            "newCurrentCustomer": {
+                "phone": "0412",
+                "name": "Müller Marco",
+                "email": "ros@kiev.ru"
+            },
+            "progress": "17.3%"
+        },
+        {
+            "apartmentId": 2,
+            "address": "Musterstrasse 15, 8000 Zürich, 3.0-Zi-Wohnung rechts 1. Stock;",
+            "currentCustomer": {
+                "name": " Muster Mario",
+                "address": "customer street",
+                "phone": "0412",
+                "email": "ros@kiev.ru"
+            },
+            "newCurrentCustomer": {
+                "phone": "0412",
+                "name": "Müller Marco",
+                "email": "ros@kiev.ru"
+            },
+            "progress": "17.3%"
+        },
+        {
+            "apartmentId": 3,
+            "address": "Musterstrasse 15, 8000 Zürich, 3.0-Zi-Wohnung rechts 1. Stock;",
+            "currentCustomer": {
+                "name": " Muster Mario",
+                "address": "customer street",
+                "phone": "0412",
+                "email": "ros@kiev.ru"
+            },
+            "newCurrentCustomer": {
+                "phone": "0412",
+                "name": "Müller Marco",
+                "email": "ros@kiev.ru"
+            },
+            "progress": "17.3%"
+        }
+    ]
+}

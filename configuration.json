@@ -1,0 +1,817 @@
+{
+    "costs":[
+        {
+            "costType": "CHF 50.00",
+            "costShort": "50.00"
+        },
+        {
+            "costType": "CHF 80.00",
+            "costShort": "80.00"
+        },
+        {
+            "costType": "CHF 100.00",
+            "costShort": "100.00"
+        },
+        {
+            "costType": "Nach Amortisation 100%",
+            "costShort": "n.A. 100%"
+        },
+        {
+            "costType": "Nach Amortisation/ Lebensdauer unbekannt",
+            "costShort": "n.A."
+        }
+    ],
+    "state":[
+        {
+            "stateType": "Mangel",
+            "stateColor": "red"
+        },
+        {
+            "stateType": "Normal abgenutzt",
+            "stateColor": "yellow"
+        },
+        {
+            "stateType": "In ordnung",
+            "stateColor": "green"
+        }
+    ],
+    "defects": [
+        {
+            "defectId": 1,
+            "defectType": "Div. Hicke"
+        },
+        {
+            "defectId": 2,
+            "defectType": "Kl. Flecken"
+        },
+        {
+            "defectId": 3,
+            "defectType": "Riss"
+        },
+        {
+            "defectId": 4,
+            "defectType": "Kratzer"
+        },
+        {
+            "defectId": 5,
+            "defectType": "Verfärbungen"
+        },
+        {
+            "defectId": 6,
+            "defectType": "Wasserflecken"
+        },
+        {
+            "defectId": 7,
+            "defectType": "Schlagstelle(n)"
+        },
+        {
+            "defectId": 8,
+            "defectType": "Wasserschaden"
+        },
+        {
+            "defectId": 9,
+            "defectType": "Minderwert"
+        },
+        {
+            "defectId": 10,
+            "defectType": "Spannungsriss (bei allen Wänden/Decken)"
+        },
+        {
+            "defectId": 11,
+            "defectType": "Schatten"
+        },
+        {
+            "defectId": 12,
+            "defectType": "Flecken"
+        },
+        {
+            "defectId": 13,
+            "defectType": "Dübellöcher XX Stück"
+        },
+        {
+            "defectId": 14,
+            "defectType": "Nikotinschäden, Isolieranstrich zL Mieter"
+        },
+        {
+            "defectId": 15,
+            "defectType": "Striemen"
+        },
+        {
+            "defectId": 16,
+            "defectType": "Schimmel"
+        },
+        {
+            "defectId": 17,
+            "defectType": "Kl. Hicke"
+        },
+        {
+            "defectId": 18,
+            "defectType": "Riss / Spannungsriss"
+        },
+        {
+            "defectId": 19,
+            "defectType": "Sprung"
+        },
+        {
+            "defectId": 20,
+            "defectType": "Kleberückstände"
+        },
+        {
+            "defectId": 21,
+            "defectType": "Fugen def."
+        },
+        {
+            "defectId": 22,
+            "defectType": "Farbe blättert ab"
+        },
+        {
+            "defectId": 23,
+            "defectType": "Rostflecken"
+        },
+        {
+            "defectId": 24,
+            "defectType": "1 Blech"
+        },
+        {
+            "defectId": 25,
+            "defectType": "2 Blech"
+        },
+        {
+            "defectId": 26,
+            "defectType": "1 Gitterrost"
+        },
+        {
+            "defectId": 27,
+            "defectType": "1 Spiess"
+        },
+        {
+            "defectId": 28,
+            "defectType": "Gitterrost fehlt"
+        },
+        {
+            "defectId": 29,
+            "defectType": "Blech fehlt"
+        },
+        {
+            "defectId": 30,
+            "defectType": "Spiess fehlt"
+        },
+        {
+            "defectId": 31,
+            "defectType": "Gummidichtung gerissen"
+        },
+        {
+            "defectId": 32,
+            "defectType": "Kl. Kratzer"
+        },
+        {
+            "defectId": 33,
+            "defectType": "Eingebrannt"
+        },
+        {
+            "defectId": 34,
+            "defectType": "Filter i.o."
+        },
+        {
+            "defectId": 35,
+            "defectType": "Filter ersetzen"
+        },
+        {
+            "defectId": 36,
+            "defectType": "Filter nicht ersetzt"
+        },
+        {
+            "defectId": 37,
+            "defectType": "Lampe def."
+        },
+        {
+            "defectId": 38,
+            "defectType": "Metallfilter fehlt"
+        },
+        {
+            "defectId": 39,
+            "defectType": "Riss Gemüseschubladen"
+        },
+        {
+            "defectId": 40,
+            "defectType": "Leichte Kratzer"
+        },
+        {
+            "defectId": 41,
+            "defectType": "Verfärbung"
+        },
+        {
+            "defectId": 42,
+            "defectType": "Zubehör fehlt"
+        },
+        {
+            "defectId": 43,
+            "defectType": "Service nicht ausgeführt"
+        },
+        {
+            "defectId": 44,
+            "defectType": "Beschädigte Abdeckung"
+        },
+        {
+            "defectId": 45,
+            "defectType": "Besteckeinsatz defekt/fehlt"
+        },
+        {
+            "defectId": 46,
+            "defectType": "Undicht"
+        },
+        {
+            "defectId": 47,
+            "defectType": "Hick"
+        },
+        {
+            "defectId": 48,
+            "defectType": "Rinnt"
+        },
+        {
+            "defectId": 49,
+            "defectType": "Neoperl ersetzen / defekt"
+        },
+        {
+            "defectId": 50,
+            "defectType": "Batterie klemmt"
+        },
+        {
+            "defectId": 51,
+            "defectType": "Batterie undicht"
+        },
+        {
+            "defectId": 52,
+            "defectType": "Sieb vorhanden"
+        },
+        {
+            "defectId": 53,
+            "defectType": "Sieb fehlt"
+        },
+        {
+            "defectId": 54,
+            "defectType": "Stopfen vorhanden"
+        },
+        {
+            "defectId": 55,
+            "defectType": "Stopfen fehlt"
+        },
+        {
+            "defectId": 56,
+            "defectType": "Möbel inwendig Kratzspuren"
+        },
+        {
+            "defectId": 57,
+            "defectType": "Brandlöcher"
+        },
+        {
+            "defectId": 58,
+            "defectType": "Brandfleck"
+        },
+        {
+            "defectId": 59,
+            "defectType": "Chromstahl"
+        },
+        {
+            "defectId": 60,
+            "defectType": "Kunststein"
+        },
+        {
+            "defectId": 61,
+            "defectType": "Granit"
+        },
+        {
+            "defectId": 62,
+            "defectType": "Wasserrückstände"
+        },
+        {
+            "defectId": 63,
+            "defectType": "Defekte Gummidichtung"
+        },
+        {
+            "defectId": 64,
+            "defectType": "Gurte gerissen/defekt"
+        },
+        {
+            "defectId": 65,
+            "defectType": "Kurbelhalter defekt"
+        },
+        {
+            "defectId": 66,
+            "defectType": "Defekt"
+        },
+        {
+            "defectId": 67,
+            "defectType": "Klemmt"
+        },
+        {
+            "defectId": 68,
+            "defectType": "Schlüssel fehlt"
+        },
+        {
+            "defectId": 69,
+            "defectType": "Schlüssel vorhanden Nr."
+        },
+        {
+            "defectId": 70,
+            "defectType": "Farbabplatzungen"
+        },
+        {
+            "defectId": 71,
+            "defectType": "Abdeckung beschädigt"
+        },
+        {
+            "defectId": 72,
+            "defectType": "Lampe fehlt"
+        },
+        {
+            "defectId": 73,
+            "defectType": "Parkett"
+        },
+        {
+            "defectId": 74,
+            "defectType": "Lichtschatten"
+        },
+        {
+            "defectId": 75,
+            "defectType": "Wohnspuren / Schatten"
+        },
+        {
+            "defectId": 76,
+            "defectType": "unfachm. geschl. DL"
+        },
+        {
+            "defectId": 77,
+            "defectType": "Starke Verfärbungen"
+        },
+        {
+            "defectId": 78,
+            "defectType": "Beschädigte Tapete"
+        },
+        {
+            "defectId": 79,
+            "defectType": "Farbige Wand"
+        },
+        {
+            "defectId": 80,
+            "defectType": "Nachreinigung"
+        },
+        {
+            "defectId": 81,
+            "defectType": "Wasserrückstäde"
+        },
+        {
+            "defectId": 82,
+            "defectType": "Kurbelhalter gerissen"
+        },
+        {
+            "defectId": 83,
+            "defectType": "Gurte gerissen"
+        },
+        {
+            "defectId": 84,
+            "defectType": "Defekte Halterung"
+        },
+        {
+            "defectId": 85,
+            "defectType": "Bart-Schlüssel fehlt"
+        },
+        {
+            "defectId": 86,
+            "defectType": "Türe fehlt"
+        },
+        {
+            "defectId": 87,
+            "defectType": "Riss im Türblatt"
+        },
+        {
+            "defectId": 88,
+            "defectType": "Schlüssel vorhanden"
+        },
+        {
+            "defectId": 89,
+            "defectType": "Schalter defekt"
+        },
+        {
+            "defectId": 90,
+            "defectType": "Boden fleckig"
+        },
+        {
+            "defectId": 91,
+            "defectType": "Verwittert"
+        },
+        {
+            "defectId": 92,
+            "defectType": "Bodenfarbe blättert ab"
+        },
+        {
+            "defectId": 93,
+            "defectType": "XX Dübellöcher"
+        },
+        {
+            "defectId": 94,
+            "defectType": "Kurbel defekt"
+        },
+        {
+            "defectId": 95,
+            "defectType": "Kurbel fehlt"
+        },
+        {
+            "defectId": 96,
+            "defectType": "Stoff verwittert / fleckig"
+        },
+        {
+            "defectId": 97,
+            "defectType": "Feuchtigkeitsschaden"
+        },
+        {
+            "defectId": 98,
+            "defectType": "Stoff ersetzten"
+        },
+        {
+            "defectId": 99,
+            "defectType": "Platten"
+        },
+        {
+            "defectId": 100,
+            "defectType": "Fugen tw. Abgedunkelt"
+        },
+        {
+            "defectId": 101,
+            "defectType": "Fugen verfärbt"
+        },
+        {
+            "defectId": 102,
+            "defectType": "Entkalken"
+        },
+        {
+            "defectId": 103,
+            "defectType": "Vergilbt"
+        },
+        {
+            "defectId": 104,
+            "defectType": "Schimmel (Fugen)"
+        },
+        {
+            "defectId": 105,
+            "defectType": "Email-Schaden"
+        },
+        {
+            "defectId": 106,
+            "defectType": "starke Kalkspuren"
+        },
+        {
+            "defectId": 107,
+            "defectType": "Verkalkte Brause"
+        },
+        {
+            "defectId": 108,
+            "defectType": "Verkalkte Batterie"
+        },
+        {
+            "defectId": 109,
+            "defectType": "Neoperl defekt"
+        },
+        {
+            "defectId": 110,
+            "defectType": "Mischventil ersetzen"
+        },
+        {
+            "defectId": 111,
+            "defectType": "Schlauch defekt"
+        },
+        {
+            "defectId": 112,
+            "defectType": "Brause defekt"
+        },
+        {
+            "defectId": 113,
+            "defectType": "Duschschlauch ersetzen"
+        },
+        {
+            "defectId": 114,
+            "defectType": "Brause ersetzen"
+        },
+        {
+            "defectId": 115,
+            "defectType": "Schale fehlt"
+        },
+        {
+            "defectId": 116,
+            "defectType": "Schale nicht original"
+        },
+        {
+            "defectId": 117,
+            "defectType": "WC Ring defekt"
+        },
+        {
+            "defectId": 118,
+            "defectType": "Spülkasten rinnt"
+        },
+        {
+            "defectId": 119,
+            "defectType": "Garnitur ersetzen"
+        },
+        {
+            "defectId": 120,
+            "defectType": "Aufgequollen"
+        },
+        {
+            "defectId": 121,
+            "defectType": "Wasserschaden (Möbel)"
+        },
+        {
+            "defectId": 122,
+            "defectType": "Batterie verkalkt"
+        },
+        {
+            "defectId": 123,
+            "defectType": "Dichtung defekt"
+        },
+        {
+            "defectId": 124,
+            "defectType": "Undichter Boiler"
+        },
+        {
+            "defectId": 125,
+            "defectType": "Badetuchstange fehlt"
+        },
+        {
+            "defectId": 126,
+            "defectType": "Handtuchstange fehlt"
+        },
+        {
+            "defectId": 127,
+            "defectType": "Badetuchstange locker"
+        },
+        {
+            "defectId": 128,
+            "defectType": "Handtuchstange locker"
+        },
+        {
+            "defectId": 129,
+            "defectType": "XX Stk. / XX Stk."
+        },
+        {
+            "defectId": 130,
+            "defectType": "Zahnglas fehlt"
+        },
+        {
+            "defectId": 131,
+            "defectType": "Vergilbt / NIkotin"
+        },
+        {
+            "defectId": 132,
+            "defectType": "Zahnglase beschädigt"
+        },
+        {
+            "defectId": 133,
+            "defectType": "Seifenschale fehlt"
+        },
+        {
+            "defectId": 134,
+            "defectType": "Seifenschale beschädigt"
+        },
+        {
+            "defectId": 135,
+            "defectType": "Blinde Stelle"
+        },
+        {
+            "defectId": 136,
+            "defectType": "XX Glastablare"
+        },
+        {
+            "defectId": 137,
+            "defectType": "XX Glastablare ersetzen"
+        }
+    ],
+    "positions": [
+        {
+            "positionId": 1,
+            "positionType": "Bodenbelag/Sockelleisten",
+            "defects": [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+        },
+        {
+            "positionId": 2,
+            "positionType": "Decke/Wände",
+            "defects": [ 10, 11, 12, 13, 14, 15, 16, 9 ]
+        },
+        {
+            "positionId": 3,
+            "positionType": "Wandplättli",
+            "defects": [ 17, 18, 19, 20, 21, 7, 13, 9, 4 ]
+        },
+        {
+            "positionId": 4,
+            "positionType": "Heizkörper",
+            "defects": [ 17, 22, 7, 13, 23, 9, 4 ]
+        },
+        {
+            "positionId": 5,
+            "positionType": "Backofen/Zubehör",
+            "defects": [ 24, 25, 26, 27, 28, 29, 30, 31 ]
+        },
+        {
+            "positionId": 6,
+            "positionType": "Kochherd (Gas/Elektrisch)",
+            "defects": [ 32, 33, 3, 7, 9, 4 ]
+        },
+        {
+            "positionId": 7,
+            "positionType": "Abzug Filter",
+            "defects": [ 34, 35, 36, 37 ]
+        },
+        {
+            "positionId": 8,
+            "positionType": "Kühlschrank/Tiefkühlgerät",
+            "defects": [ 38, 39, 40, 41, 42 ]
+        },
+        {
+            "positionId": 9,
+            "positionType": "Geschirrspüler",
+            "defects": [ 46, 44 ]
+        },
+        {
+            "positionId": 10,
+            "positionType": "Boiler",
+            "defects": [ 34, 35, 36, 37 ]
+        },
+        {
+            "positionId": 11,
+            "positionType": "Spültisch/Batterie",
+            "defects": [ 32, 47, 48, 49, 50, 51, 52, 53, 54, 55 ]
+        },
+        {
+            "positionId": 12,
+            "positionType": "Schränke/Kehrvorrichtung",
+            "defects": [ 45, 56, 7, 41, 9, 4 ]
+        },
+        {
+            "positionId": 13,
+            "positionType": "Abstellflächen",
+            "defects": [ 32, 57, 58, 59, 60, 61, 7, 9 ]
+        },
+        {
+            "positionId": 14,
+            "positionType": "Fenster/Scheiben/Sims",
+            "defects": [ 32, 47, 3, 62, 63, 20, 14, 22 ]
+        },
+        {
+            "positionId": 15,
+            "positionType": "Rolladen/Gurte/Kurbel/Jalousien",
+            "defects": [ 64, 65, 66, 67 ]
+        },
+        {
+            "positionId": 16,
+            "positionType": "Abstellflächen",
+            "defects": [ 17, 68, 69, 4, 70, 14, 9 ]
+        },
+        {
+            "positionId": 17,
+            "positionType": "Fenster/Scheiben/Sims",
+            "defects": [ 71, 14, 37, 72, 66 ]
+        },
+        {
+            "positionId": 18,
+            "positionType": "Rolladen/Gurte/Kurbel/Jalousien",
+            "defects": [ 75, 76, 13, 77, 15, 9, 12, 78, 16, 11, 79 ]
+        },
+        {
+            "positionId": 19,
+            "positionType": "Decke",
+            "defects": [ 74, 12, 15, 47, 14, 13, 9, 79, 78, 16 ]
+        },
+        {
+            "positionId": 20,
+            "positionType": "Schalter/Dosen",
+            "defects": [ 89, 14, 3 ]
+        },
+        {
+            "positionId": 21,
+            "positionType": "Balkon/Sitzplatz",
+            "defects": [ 90, 91, 3, 41, 92, 93 ]
+        },
+        {
+            "positionId": 22,
+            "positionType": "Sonnenstoren/Gurte/Kurbel",
+            "defects": [ 94, 95, 96, 97, 98, 9 ]
+        },
+        {
+            "positionId": 23,
+            "positionType": "Badewanne",
+            "defects": [ 106, 17, 4, 7, 9, 104, 105, 21 ]
+        },
+        {
+            "positionId": 24,
+            "positionType": "Batterie/Brause/Schlauch",
+            "defects": [ 106, 107, 108, 109, 48, 110, 111, 112, 51, 113, 114, 102 ]
+        },
+        {
+            "positionId": 25,
+            "positionType": "Seifenschale",
+            "defects": [ 115, 116, 66 ]
+        },
+        {
+            "positionId": 26,
+            "positionType": "Spülkasten/WC/Garnitur",
+            "defects": [ 117, 118, 119, 80, 3, 47 ]
+        },
+        {
+            "positionId": 27,
+            "positionType": "Lavabo/Einbaumöbel",
+            "defects": [ 17, 105, 21, 41, 120, 4, 7, 121, 9 ]
+        },
+        {
+            "positionId": 28,
+            "positionType": "Batterie/Dichtung",
+            "defects": [ 50, 51, 122, 109, 48, 123, 102 ]
+        },
+        {
+            "positionId": 29,
+            "positionType": "Badetuchstange/Handtuchhalter",
+            "defects": [ 125, 126, 127, 128 ]
+        },
+        {
+            "positionId": 30,
+            "positionType": "Zahngläser/Seifenschale",
+            "defects": [ 129, 130, 132, 133, 134, 66 ]
+        },
+        {
+            "positionId": 31,
+            "positionType": "Spiegelschrank/Tablare",
+            "defects": [ 17, 135, 41, 62, 136, 137 ]
+        },
+        {
+            "positionId": 32,
+            "positionType": "Lüftung/Ventilation",
+            "defects": [ 35, 36, 34, 66 ]
+        },
+        {
+            "positionId": 33,
+            "positionType": "Dusche",
+            "defects": []
+        },
+        {
+            "positionId": 34,
+            "positionType": "Türen/Zargen",
+            "defects": []
+        },
+        {
+            "positionId": 35,
+            "positionType": "Wandschrank/Schlüssel",
+            "defects": [ 35, 36, 34, 66 ]
+        },
+        {
+            "positionId": 36,
+            "positionType": "Wohnungstür/Zarge/Spion",
+            "defects": []
+        },
+        {
+            "positionId": 37,
+            "positionType": "Gegensprechanlage",
+            "defects": []
+        }
+    ],
+    "rooms": [
+        {
+            "roomOrder": 1,
+            "roomType": "Küche",
+            "positions": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+        },
+        {
+            "roomOrder": 2,
+            "roomType": "Wohn-/Esszimmer",
+            "positions": [ 1, 18, 19, 14, 4, 15, 16, 20, 21, 22 ]
+        },
+        {
+            "roomOrder": 3,
+            "roomType": "Schlafzimmer",
+            "positions": [ 1, 18, 19, 14, 4, 15, 16, 20 ]
+        },
+        {
+            "roomOrder": 4,
+            "roomType": "Kinderzimmer",
+            "positions": [ 1, 18, 19, 14, 4, 15, 16, 20 ]
+        },
+        {
+            "roomOrder": 5,
+            "roomType": "Kinderzimmer",
+            "positions": [ 1]
+        },
+        {
+            "roomOrder": 6,
+            "roomType": "Korridor/Diele",
+            "positions": [ 1, 18, 19, 34, 35, 20, 36, 37 ]
+        },
+        {
+            "roomOrder": 7,
+            "roomType": "Badezimmer/WC",
+            "positions": [ 1, 2, 3, 4, 23, 24, 25, 26, 27, 28, 10, 29, 30, 31, 14, 16, 32, 17 ]
+        },
+        {
+            "roomOrder": 8,
+            "roomType": "Separates WC/Dusche",
+            "positions": [ 1, 2, 3, 4, 33, 24, 25, 26, 27, 28, 29, 30, 31, 14, 16, 32, 17 ]
+        }
+    ]
+}
